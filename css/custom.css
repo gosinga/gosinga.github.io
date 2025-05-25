@@ -109,6 +109,7 @@ article { padding-top: 1.25em; }
 }
 .content :where(p):not(:where([class~=not-prose],[class~=not-prose] *)) {
   margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   line-height: 1.8rem;
   text-align: justify;
 
@@ -119,8 +120,8 @@ article { padding-top: 1.25em; }
 
 .content :where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *)):where([dir="ltr"], [dir="ltr"] *) {
   padding-left: 1.75rem;
-  margin-top: 1.0em;
-  margin-bottom: 1.25em;
+  margin-top: 1.0rem;
+  margin-bottom: 1.0rem;
   border: 0;
   font-style: normal;
   color: inherit;
@@ -138,10 +139,9 @@ article { padding-top: 1.25em; }
   margin-top: 1.0em;
 }
 
-.content :where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *)) + p {
-    margin-top: 2.0em;
+.content blockquote + p {
+  margin-top: 2.0em;
 }
-
 .content :where(blockquote):where([class="pali"], [class="pali"] *) p {
     text-align: left;
 }
@@ -268,18 +268,6 @@ body:is(html[class~="dark"] *) article a:hover {
   border-radius: 0.25rem;
 }
 
-.content p {
-    font-family: 'Apple SD Gothic Neo', -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.content :where(code):not(:where(.hextra-code-block code,[class~=not-prose],[class~=not-prose] *)) {
-    font-family: 'Apple SD Gothic Neo', -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif; 
-	font-size:1.0em; font-weight: 600;
-    padding: 2px 2px 1px 2px;
-    border-bottom: 1px solid color-mix(in oklab,var(--hx-color-black)20%,transparent);
-    border-right: 1px solid color-mix(in oklab,var(--hx-color-black)20%,transparent);
-    color: color-mix(in oklab,var(--hx-color-black)110%,transparent);
-}
 .hx\:ml-6 {
 	margin-left:calc(var(--hx-spacing)*6)
 }
@@ -334,6 +322,23 @@ aside.sidebar-container div.hextra-scrollbar li li {
   margin-left: -2.0;
 }
 
-.content {
-  font-family: 'Apple SD Gothic Neo', Times, serif;
+.content, .content p.hx\:dark\:shadow-\[0_-12px_16px_\#111\]:where(.dark,.dark *) {
+  font-family: 'Apple SD Gothic Neo', -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.0em;
+}
+
+
+.content :where(code):not(:where(.hextra-code-block code,[class~=not-prose],[class~=not-prose] *)) {
+    font-family: 'Apple SD Gothic Neo', -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif; 
+	  font-size:1.0em; 
+    font-weight: 600;
+    padding: 2px 2px 1px 2px;
+    border: 0;
+    color: color-mix(in oklab,var(--hx-color-black)110%,transparent);
+    background-color: beige;
+}
+
+body:is(html[class~="dark"] *) code {
+  background-color:#4a576c;
+
 }

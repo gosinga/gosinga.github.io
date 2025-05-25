@@ -1,0 +1,52 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>고싱가 숲 – 팔리어 구문론</title>
+    <link>http://localhost:1313/docs/pali/</link>
+    <description>Recent content in 팔리어 구문론 on 고싱가 숲</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="http://localhost:1313/docs/pali/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>팔리어 학습교재 안내</title>
+      <link>http://localhost:1313/docs/pali/books/textbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/pali/books/textbook/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;들어가며&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;들어가며&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%eb%93%a4%ec%96%b4%ea%b0%80%eb%a9%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;팔리어는 인도유럽어족에 속하는 고대의 언어이다. 고대언어의 특성상 보통의 현대언어 습득 방법을 그대로 적용하여 학습하기는 어렵다.&lt;/p&gt;
+&lt;p&gt;일반적으로 고대언어는 음운론, 형태론, 구문론으로 나누어 공부하게 되는데, 이 세 분야를 어떻게 다루느냐에 따라 문법서의 성격이 달라진다.&lt;/p&gt;
+&lt;p&gt;기본 문법서는 품사와 형태론(명사류 변화, 동사변화 등)을 주로 다루고 음운론과 구문론은 간략하게 다루거나 거의 다루지 않는다. 반면에 구문론 서적은 명사의 격 용법이나 동사의 시제/법/상을 주로 다룬다. 이 세 분야를 종합적으로 다루는 교재는 매우 드물다.&lt;/p&gt;
+&lt;h2&gt;기본문법&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;기본문법&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%ea%b8%b0%eb%b3%b8%eb%ac%b8%eb%b2%95&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;일반적으로 명사류의 변화(declension)나 동사의 변화(conjugation)를 주로 다루는 것으로는 Da Silva, Droiselle 등의 교재가 있다. 이들보다 내용을 보완하고 음운론과 구문론을 간략하고 요긴하게 다루는 것으로는 Bomhard의 문법서가 있다.&lt;/p&gt;
+&lt;p&gt;이 범주에 속한 교재로는 Bomhard의 책을 추천한다.&lt;/p&gt;
+&lt;h2&gt;독해&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;독해&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%eb%8f%85%ed%95%b4&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;독해는 일반적인 초급 수준의 독해를 다루는 A Pali Reader가 있고, 무료로 배포되고 있는 Buddhavacana가 있다.&lt;/p&gt;
+&lt;h2&gt;구문론&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;구문론&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%ea%b5%ac%eb%ac%b8%eb%a1%a0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;— Wijesekera, &lt;em&gt;Syntax of the Cases in the Pali Nikayas&lt;/em&gt; (Oxford University)&lt;br&gt;
+산스크리트어 교재를 포함하여 적어도 격의 용법에 관한 한 이를 능가하는 것을 찾기 힘들다. 팔리 니카야의 경문을 토대로 아주 상세히 격의 용법을 다루고 있다. 중고급 구문론 서적이다.&lt;/p&gt;
+&lt;h2&gt;종합 문법교재&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;종합-문법교재&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%ec%a2%85%ed%95%a9-%eb%ac%b8%eb%b2%95%ea%b5%90%ec%9e%ac&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Wilhelm Geiger, &lt;em&gt;A Pali Grammar&lt;/em&gt; (Pali Text Society)&lt;/p&gt;
+&lt;blockquote &gt;
+&lt;p&gt;팔리어 문법서 중에서 음운론을 가장 상세히 다룬다. 특히 산스크리트어에서 팔리어로 변화되는 음운론 양상을 잘 설명하고 있다. 그리고 형태론이 대단히 치밀하여, 니카야에서 드물게 보이는 어형을 확인할 때 도움이 된다. 구문론은 전혀 다루지 않는다. 고급 문법서이다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A. K. Warder, &lt;em&gt;Introduction to Pali&lt;/em&gt; (Pali Text Society)&lt;/p&gt;
+&lt;blockquote &gt;
+&lt;p&gt;입문자부터 중급까지 참고하기 좋은 문법서이다. 형태론, 음운론, 구문론을 일반 어학교재마냥 종합적으로 순차적으로 다루며, 디가 니카야 경문을 토대로 독해 연습을 하기 좋다. 초중급 문법서이다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
