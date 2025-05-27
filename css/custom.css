@@ -1,19 +1,9 @@
-body:is(html[class~="dark"] *) {
-  --tw-bg-opacity: 1;
-  background-color: #1d2939;
-  --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity));
-}
-
-body:is(html[class~="dark"] *) article {
-  background-color: #364153;
-}
 
 article { padding-top: 1.25em; }
 
 .content :where(h1):not(:where([class~=not-prose],[class~=not-prose] *)) {
   margin-top: 0.5rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3.0rem;
   font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: -0.015em;
@@ -60,19 +50,17 @@ article { padding-top: 1.25em; }
   }
 }
 .content :where(h3):not(:where([class~=not-prose],[class~=not-prose] *)) {
-  margin-top: 2rem;
   font-size: 1.04rem;
   font-weight: 600;
   letter-spacing: -0.015em;
   --tw-text-opacity: 1;
-  color: steelblue;
+  color: black;
 }
 .content :where(h3):not(:where([class~=not-prose],[class~=not-prose] *)):is(html[class~="dark"] *) {
   --tw-text-opacity: 1;
   color: Khaki;
 }
 .content :where(h4):not(:where([class~=not-prose],[class~=not-prose] *)) {
-  margin-top: 2rem;
   font-size: 1.04rem;
   font-weight: 600;
   letter-spacing: -0.015em;
@@ -142,6 +130,8 @@ article { padding-top: 1.25em; }
 .content blockquote + p {
   margin-top: 2.0em;
 }
+
+
 .content :where(blockquote):where([class="pali"], [class="pali"] *) p {
     text-align: left;
 }
@@ -156,44 +146,22 @@ article { padding-top: 1.25em; }
   text-decoration: none;
 }
 
-body:is(html *) article a {
-    text-decoration: none;
-    border-bottom: 0px solid;
-}
 
-body:is(html *) article h2 a {
-    text-decoration: none;
-    border-bottom: 1px solid;
-}
-
-body:is(html *) article a:hover {
-    border-bottom: 1px solid;
-}
-
-body:is(html[class~="dark"] *) article a {
-    text-decoration: none;
-    color: #f8c471; 
-}
-
-body:is(html[class~="dark"] *) article h2 a {
-    text-decoration: none;
-    color: #f8c471;
-    border-bottom: 1px solid;
-}
-
-body:is(html[class~="dark"] *) article a:hover {
-    text-decoration: none;
-    border-bottom: 1px solid #f8c471 ;   
+.content, .content p.hx\:dark\:shadow-\[0_-12px_16px_\#111\]:where(.dark,.dark *) {
+  font-family: 'Apple SD Gothic Neo', -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.0em;
 }
 
 
-
-
-
-
-
-
-
+.content :where(code):not(:where(.hextra-code-block code,[class~=not-prose],[class~=not-prose] *)) {
+    font-family: 'Apple SD Gothic Neo', -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif; 
+	  font-size:1.0em; 
+    font-weight: 600;
+    padding: 2px 2px 1px 2px;
+    border: 0;
+    color: black;
+    background-color: beige;
+}
 
 .subheading-anchor:after {
   color: steelblue;
@@ -297,20 +265,64 @@ span.underline { border-bottom: 1px solid; }
 .content hr { margin-top: 2.75em; margin-bottom: 2.5em; color: slategray;  }
 .content hr::before { content: "* "; }
 
+
+
+
+
+
+body:is(html *) article .sutta-list h2 {
+  text-decoration: none;
+  border: 0;
+}
+
+body:is(html *) article a {
+    text-decoration: none;
+    border-bottom: 0px solid;
+}
+
+body:is(html *) article h2 a {
+    text-decoration: none;
+    border-bottom: 0px solid;
+}
+
+body:is(html *) article a:hover {
+    border-bottom: 1px solid;
+}
+
+body:is(html[class~="dark"] *) article a {
+    text-decoration: none;
+    color: #f8c471; 
+}
+
+body:is(html[class~="dark"] *) article h2 a {
+    text-decoration: none;
+    color: #f8c471;
+    border-bottom: 0px solid;
+}
+
+body:is(html[class~="dark"] *) article a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #f8c471 ;   
+}
+
+div.list p a {
+  padding-bottom: 0.25em;
+}
+
 body:is(html *) .sutta-list h2,
 body:is(html *) .sutta-list h3 {
-  margin: 1.0em 0;
+  margin: 2em 0 1.0em 0;
 }
 
 body:is(html[class~="dark"] *) .sutta-list h2,
 body:is(html[class~="dark"] *) .sutta-list h3 {
   color: Cornsilk;
-  margin: 1.0em 0;
 }
 
 body:is(html[class~="dark"] *) .sutta-list h2 a, 
 body:is(html[class~="dark"] *) .sutta-list h3 a {
   color: goldenrod;
+
 }
 
 .content.sutta-list ol {
@@ -322,23 +334,46 @@ aside.sidebar-container div.hextra-scrollbar li li {
   margin-left: -2.0;
 }
 
-.content, .content p.hx\:dark\:shadow-\[0_-12px_16px_\#111\]:where(.dark,.dark *) {
-  font-family: 'Apple SD Gothic Neo', -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1.0em;
+
+body:is(html[class~="dark"] *) .content p {
+  color: rgb(243 244 246 / var(--tw-text-opacity));
 }
 
+body:is(html[class~="dark"] *) {
+  background-color: #1d2939;
+  color: rgb(243 244 246 / var(--tw-text-opacity));
+}
 
-.content :where(code):not(:where(.hextra-code-block code,[class~=not-prose],[class~=not-prose] *)) {
-    font-family: 'Apple SD Gothic Neo', -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif; 
-	  font-size:1.0em; 
-    font-weight: 600;
-    padding: 2px 2px 1px 2px;
-    border: 0;
-    color: color-mix(in oklab,var(--hx-color-black)110%,transparent);
-    background-color: beige;
+body:is(html[class~="dark"] *) article {
+  background-color: #364153;
 }
 
 body:is(html[class~="dark"] *) code {
   background-color:#4a576c;
+  background-color: transparent;
+  color:  #fcfccd ;
 
+}
+
+body:is(html *) .content em {
+  border-bottom: 1px solid;
+  font-style: normal;
+}
+
+
+body:is(html[class~="dark"] *) .content em {
+  border-bottom: 1px solid;
+  font-style: normal;
+}
+
+body:is(html *) table th {
+  background-color: #eee;
+}
+
+body:is(html[class~="dark"] *) table th {
+  background-color:#2b394c;
+}
+
+.content table td, .content table th {
+	padding: 0.35em 0.5em 0.25em 0.5em;
 }

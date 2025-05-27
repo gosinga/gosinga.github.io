@@ -2,56 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/docs/sn/sn-1/</loc>
+    <loc>http://localhost:1313/nikaya/sn/sn-1/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/sn/sn-1/sn-1.1/</loc>
+    <loc>http://localhost:1313/nikaya/sn/sn-1/sn-1.1/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/</loc>
+    <loc>http://localhost:1313/nikaya/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/dn/</loc>
+    <loc>http://localhost:1313/nikaya/dn/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/kn/snp/</loc>
+    <loc>http://localhost:1313/nikaya/kn/snp/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/mn/</loc>
+    <loc>http://localhost:1313/nikaya/mn/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/kn/dhp/</loc>
+    <loc>http://localhost:1313/nikaya/kn/dhp/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/dn/dn-2/</loc>
+    <loc>http://localhost:1313/nikaya/dn/dn-2/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/sn/</loc>
+    <loc>http://localhost:1313/nikaya/sn/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/an/an-4/</loc>
+    <loc>http://localhost:1313/nikaya/an/an-4/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/an/</loc>
+    <loc>http://localhost:1313/nikaya/an/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/kn/</loc>
+    <loc>http://localhost:1313/nikaya/kn/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-05-18T23:32:32+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/mn/mn-9/</loc>
+    <loc>http://localhost:1313/nikaya/mn/mn-9/</loc>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/mn/mn-11/</loc>
+    <loc>http://localhost:1313/nikaya/mn/mn-11/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/sn/sn-12/</loc>
+    <loc>http://localhost:1313/nikaya/sn/sn-12/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/sn/sn-12/sn-12.65/</loc>
+    <loc>http://localhost:1313/nikaya/sn/sn-12/sn-12.65/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/formula/</loc>
+    <loc>http://localhost:1313/nikaya/formula/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/mn/mn-18/</loc>
+    <loc>http://localhost:1313/nikaya/mn/mn-18/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/dhamma/</loc>
+    <loc>http://localhost:1313/nikaya/dhamma/</loc>
   </url><url>
     <loc>http://localhost:1313/pali/books/</loc>
   </url><url>
     <loc>http://localhost:1313/pali/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/sn/sn-48/</loc>
+    <loc>http://localhost:1313/nikaya/sn/sn-48/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/sn/sn-48/sn-48.42/</loc>
+    <loc>http://localhost:1313/nikaya/sn/sn-48/sn-48.42/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
@@ -203,11 +203,11 @@
     <loc>http://localhost:1313/tags/%ED%99%A9%EB%B3%91%EA%B8%B0/</loc>
     <lastmod>2007-07-22T05:44:50+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/an/an-4/an-4.45/</loc>
+    <loc>http://localhost:1313/nikaya/an/an-4/an-4.45/</loc>
   </url><url>
     <loc>http://localhost:1313/series/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/kn/snp/snp-2.5/</loc>
+    <loc>http://localhost:1313/nikaya/kn/snp/snp-2.5/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/%EA%B2%AC%E8%A6%8B/</loc>
   </url><url>

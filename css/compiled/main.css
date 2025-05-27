@@ -2046,7 +2046,7 @@ html {
 }
 body {
 	background-color:var(--hx-color-white);
-	width:100%
+	width:100%;
 }
 body:where(.dark,.dark *) {
 	background-color:var(--hx-color-dark);
@@ -2284,8 +2284,6 @@ body:where(.dark,.dark *) {
 	border-style:var(--tw-border-style);
 	border-width:1px;
 	border-color:var(--hx-color-gray-300);
-	padding-inline:calc(var(--hx-spacing)*4);
-	padding-block:calc(var(--hx-spacing)*2)
 }
 .content :where(table):not(:where(.hextra-code-block table,[class~=not-prose],[class~=not-prose] *)) td:where(.dark,.dark *) {
 	border-color:var(--hx-color-gray-600)
